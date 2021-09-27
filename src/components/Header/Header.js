@@ -3,8 +3,8 @@ import './Header.css';
 
 const Header = () => {
     return (
-        <div>
-            <nav className="navbar navbar-expand-lg navbar-light bg-light py-4">
+        <div className="header">
+            <nav className="navbar navbar-expand-lg navbar-light bg-light py-4 ">
                 <div className="container">
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
@@ -15,10 +15,10 @@ const Header = () => {
                         <a className="nav-link active" aria-current="page" href="./home">Home</a>
                         </li>
                         <li className="nav-item">
-                        <a className="nav-link" href="./about">About</a>
+                        <a className="nav-link active" href="./about">About</a>
                         </li>
                         <li className="nav-item">
-                        <a className="nav-link" href="./about">Service</a>
+                        <a className="nav-link active" href="./about">Service</a>
                         </li>
                         <li className="nav-item">
                         <a className="nav-link" href="./about">Contact</a>
@@ -34,7 +34,8 @@ const Header = () => {
 
                 <div className="hero-area text-center">
                     <h1>Most Famous Scientist in the World</h1>
-                    <h2>Total Budget $10000</h2>
+                    <h5>Get to know the scientists that changed the world as we know it though their contributions and discoveries</h5>
+                    <h2>Total Budget $103000</h2>
                 </div>
             
         </div>
