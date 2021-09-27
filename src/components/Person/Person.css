@@ -1,0 +1,22 @@
+.person-container{
+    height: 600px;
+    border: 2px solid #47AAA2;
+    border-radius: 15px;
+}
+.card-bottom{
+    padding: 15px;
+
+}
+.card-top img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    padding: 15px;
+}
+.card-bottom button{
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    background-color:#47AAA2;
+}
